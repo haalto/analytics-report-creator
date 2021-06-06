@@ -5,6 +5,9 @@ const DB_CONFIG = {
   migrations: {
     directory: "./migrations",
   },
+  seeds: {
+    directory: "./migrations",
+  },
   development: {
     client: "pg",
     connection: {
